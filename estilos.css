@@ -1,0 +1,31 @@
+
+h1 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-size: 60px;
+}
+h2{
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+}
+.paraForm{
+    background-color: gray;
+    text-align: center;
+    border: 5px solid;
+    border-color: red;    
+}
+.paraVideo{
+    background-color: cornflowerblue;
+    text-align: center;
+    border: 5px solid;
+    border-color: cyan;
+}
+#base1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 1em;
+}
