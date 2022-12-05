@@ -29,3 +29,74 @@ h2{
     text-align: center;
     font-size: 1em;
 }
+
+.logopr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+.logoen{
+    orientation: top;
+    scale: 50%;
+    display: flex;
+    position: static;
+}
+
+.busqnav{
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav_item{
+    display: inline;
+    color: cornsilk;
+}
+.nav_item:hover{
+    background-color: chartreuse;
+}
+
+.navegacion{
+    border: 3px;
+    background-color: green;
+    height: 20px;
+}
+
+.nav_item a{
+    color: aliceblue;
+    display: inline;
+}
+
+.navegacion::first-letter{
+    color: crimson;
+}
+
+.testimonial{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 3px;
+    grid: template areas 2px;
+}
+
+.gpic{
+    scale: 80%;
+}
+
+.efectext{
+    background-color:antiquewhite;
+    text-size-adjust: 30px;
+    text-shadow: 2px;
+}
+
+.efectext:hover{
+    color: blue;
+}
+
+.efectext:active{
+    color: darkcyan;
+}
